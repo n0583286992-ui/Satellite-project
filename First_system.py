@@ -13,11 +13,9 @@ class Satellite(SpaceEntity):
 str1 = Satellite("str1",100)
 str2 = Satellite("str2",200)
 
-<<<<<<< HEAD
-my_packet = Packet("i am the first")
-=======
+
+
 my_packet = Packet("i am the first",str1,str2)
->>>>>>> 54078f2 (level2)
 
 my_packet.sender = str1
 my_packet.receiver = str2

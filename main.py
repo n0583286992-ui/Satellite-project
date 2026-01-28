@@ -1,5 +1,8 @@
 from part_two import *
+from part_three import *
 
-def attempt_transmission(my_packet):
-    network.send(my_packet)
+try:
+    new_errors(my_packet)
+except BrokenConnectionError:
+        print("Transmission failed")
 
